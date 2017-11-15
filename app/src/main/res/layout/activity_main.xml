@@ -22,61 +22,61 @@
         android:layout_weight="3"
         android:gravity="center">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Udacity"
-        android:textStyle="italic"
-        android:textSize="24sp"
-        android:fontFamily="sans-serif" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Udacity"
+            android:textStyle="italic"
+            android:textSize="34sp"
+            android:fontFamily="sans-serif" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="What do you want to learn today?"
-            android:textSize="12sp"
+            android:textSize="20sp"
             android:fontFamily="sans-serif"
             android:layout_marginTop="2dp"
             android:layout_marginBottom="8dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:text=" 2465 Latham St., Mountain View, CA 94043"
-                android:drawableLeft="@drawable/ic_room_black_24dp"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:fontFamily="sans-serif"
-                android:gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text=" 2465 Latham St., Mountain View, CA 94043"
+            android:drawableLeft="@drawable/ic_room_black_24dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:fontFamily="sans-serif"
+            android:gravity="center" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:text=" 650-555-5555"
-                android:drawableLeft="@drawable/ic_call_black_24dp"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:fontFamily="sans-serif"
-                android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text=" 650-555-5555"
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:fontFamily="sans-serif"
+            android:gravity="center"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="or go to:"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:fontFamily="sans-serif" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="or go to:"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:fontFamily="sans-serif" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_link_black_24dp"
-                android:text=" www.udacity.com"
-                android:textStyle="italic"
-                android:layout_marginTop="2dp"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:fontFamily="sans-serif"
-                android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_link_black_24dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text=" www.udacity.com"
+            android:layout_marginTop="2dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="italic" />
 
     </LinearLayout>
 </LinearLayout>
